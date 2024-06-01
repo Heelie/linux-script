@@ -193,4 +193,6 @@ WantedBy=multi-user.target
 EOF
 echo "Done."
 
+groupadd docker
 systemctl daemon-reload
+
